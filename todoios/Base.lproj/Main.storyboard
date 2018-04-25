@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8st-Q2-1ux">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--To Do Table View Controller-->
+        <scene sceneID="BPS-D3-Ss5">
+            <objects>
+                <tableViewController id="ZVF-th-6CC" customClass="ToDoTableViewController" customModule="EinsatzplanActemiumHF" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="21" sectionHeaderHeight="28" sectionFooterHeight="28" id="g5f-6q-1is">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" showsCancelButton="YES" id="tB5-F2-j9V">
+                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoTVCCell" rowHeight="21" id="YfV-hl-qW1" customClass="ToDoTVCCell" customModule="EinsatzplanActemiumHF" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="136" width="600" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" verticalCompressionResistancePriority="250" tableViewCell="YfV-hl-qW1" id="hqE-ct-SbF">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFb-xf-4M3">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZ5-Xm-EZx">
+                                            <rect key="frame" x="77" y="0.0" width="50" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuJ-SB-3HX">
+                                            <rect key="frame" x="130" y="0.0" width="50" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQw-gI-7Cu">
+                                            <rect key="frame" x="183" y="0.0" width="50" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8di-Ob-ewG">
+                                            <rect key="frame" x="236" y="0.0" width="50" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vu-Ga-5Qo">
+                                            <rect key="frame" x="289" y="0.0" width="50" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Di" destination="kuJ-SB-3HX" id="mc1-sV-7eK"/>
+                                    <outlet property="Mo" destination="UZ5-Xm-EZx" id="IFW-0B-ORg"/>
+                                    <outlet property="don" destination="8di-Ob-ewG" id="vgT-U2-EqY"/>
+                                    <outlet property="fr" destination="2Vu-Ga-5Qo" id="t92-e9-pH7"/>
+                                    <outlet property="mi" destination="BQw-gI-7Cu" id="5bv-bH-icn"/>
+                                    <outlet property="name" destination="BFb-xf-4M3" id="ybN-i2-2P1"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ZVF-th-6CC" id="zg7-9b-Vix"/>
+                            <outlet property="delegate" destination="ZVF-th-6CC" id="vbc-Tf-1Ae"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="kv5-Bx-cDb">
+                        <nil key="title"/>
+                        <leftBarButtonItems>
+                            <barButtonItem id="oOk-JS-Fz5">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gKb-HE-e4p">
+                                    <rect key="frame" x="20" y="2" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="montage"/>
+                                    <connections>
+                                        <action selector="clickMon:" destination="ZVF-th-6CC" eventType="touchUpInside" id="YNG-OT-svR"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem id="Bfl-Jg-c3G">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="A30-j0-d0O">
+                                    <rect key="frame" x="68" y="2" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="service"/>
+                                    <connections>
+                                        <action selector="clickServ:" destination="ZVF-th-6CC" eventType="touchUpInside" id="XB4-Ah-aco"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <stepper key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="left" contentVerticalAlignment="center" maximumValue="100" id="7PY-2M-eGN">
+                            <rect key="frame" x="253" y="8" width="94" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="stepperValueChanged:" destination="ZVF-th-6CC" eventType="valueChanged" id="TTe-CX-UtO"/>
+                            </connections>
+                        </stepper>
+                        <rightBarButtonItems>
+                            <barButtonItem id="d0R-M5-PUe">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="51" placeholderIntrinsicHeight="51" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ax8-Cg-6pQ">
+                                    <rect key="frame" x="540" y="2" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" image="kfz"/>
+                                    <connections>
+                                        <action selector="clickKFZ:" destination="ZVF-th-6CC" eventType="touchUpInside" id="YRV-Wp-YE4"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem id="nd5-n5-O1c">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="51" placeholderIntrinsicHeight="51" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4j3-29-iWs">
+                                    <rect key="frame" x="492" y="2" width="40" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="autom"/>
+                                    <connections>
+                                        <action selector="clickAutom:" destination="ZVF-th-6CC" eventType="touchUpInside" id="Dea-wI-s68"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="mTu-o4-NhU">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
+                    <connections>
+                        <outlet property="buttonAutom" destination="4j3-29-iWs" id="asq-8F-uaO"/>
+                        <outlet property="buttonKFZ" destination="Ax8-Cg-6pQ" id="w88-9U-hz9"/>
+                        <outlet property="buttonMontage" destination="gKb-HE-e4p" id="ISU-FM-KGc"/>
+                        <outlet property="buttonSer" destination="Bfl-Jg-c3G" id="HIP-I2-ABC"/>
+                        <outlet property="searchBar" destination="tB5-F2-j9V" id="w4h-p2-KyH"/>
+                        <outlet property="searchDisplayController" destination="6DW-ct-HDI" id="4Cx-fR-IMC"/>
+                        <outlet property="stepper" destination="7PY-2M-eGN" id="UPm-4F-a0g"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68c-yn-djC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="o8n-dT-93s">
+                    <connections>
+                        <outlet property="delegate" destination="ZVF-th-6CC" id="1Lw-me-5i5"/>
+                        <outlet property="searchContentsController" destination="ZVF-th-6CC" id="Bxd-wK-z2S"/>
+                        <outlet property="searchResultsDataSource" destination="ZVF-th-6CC" id="ZDj-wn-Oys"/>
+                        <outlet property="searchResultsDelegate" destination="ZVF-th-6CC" id="3PI-rn-y8T"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="6DW-ct-HDI">
+                    <connections>
+                        <outlet property="delegate" destination="ZVF-th-6CC" id="ITb-OS-1Mc"/>
+                        <outlet property="searchContentsController" destination="ZVF-th-6CC" id="dff-yk-nWG"/>
+                        <outlet property="searchResultsDataSource" destination="ZVF-th-6CC" id="qh2-fR-GKV"/>
+                        <outlet property="searchResultsDelegate" destination="ZVF-th-6CC" id="CF7-ul-akp"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-1058" y="-4259"/>
+        </scene>
+        <!--Azure Mobile Apps-->
+        <scene sceneID="yNt-7v-plj">
+            <objects>
+                <navigationController title="Azure Mobile Apps" automaticallyAdjustsScrollViewInsets="NO" id="8st-Q2-1ux" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Cf-GE-u1S">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.27058823529411763" green="0.69411764705882351" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                            <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ZVF-th-6CC" kind="relationship" relationship="rootViewController" id="5mO-Rn-sHq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRr-xT-xwq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-965" y="-3038"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="autom" width="40" height="40"/>
+        <image name="kfz" width="40" height="40"/>
+        <image name="montage" width="40" height="40"/>
+        <image name="service" width="40" height="40"/>
+    </resources>
+</document>

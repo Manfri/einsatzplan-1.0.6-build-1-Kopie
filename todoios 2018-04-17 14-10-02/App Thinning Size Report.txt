@@ -1,0 +1,29 @@
+
+App Thinning Size Report for All Variants of todoios
+
+Variant: todoios-iPad Pro (12.9-inch)-etc.ipa
+Supported devices: iPad (5th generation), iPad Air, iPad Air 2, iPad Pro (10.5-inch), iPad Pro (12.9-inch), iPad Pro (12.9-inch) (2nd generation), iPad Pro (9.7-inch), iPad mini 2, iPad mini 3, and iPad mini 4
+App + On Demand Resources size: 3,1 MB compressed, 8,8 MB uncompressed
+App size: 3,1 MB compressed, 8,8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: todoios-iPhone 6 Plus-etc.ipa
+Supported devices: iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8 Plus, and iPhone X
+App + On Demand Resources size: 3,1 MB compressed, 8,8 MB uncompressed
+App size: 3,1 MB compressed, 8,8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: todoios-iPhone SE-etc.ipa
+Supported devices: iPhone 5s, iPhone 6, iPhone 6s, iPhone 7, iPhone 8, iPhone SE, and iPod touch (6th generation)
+App + On Demand Resources size: 3,1 MB compressed, 8,8 MB uncompressed
+App size: 3,1 MB compressed, 8,8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: todoios.ipa
+Supported devices: Universal
+App + On Demand Resources size: 10,3 MB compressed, 35,1 MB uncompressed
+App size: 10,3 MB compressed, 35,1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

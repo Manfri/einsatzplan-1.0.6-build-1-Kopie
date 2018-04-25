@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C41FDF3208770FC003649A0 /* EinsatzplanActemium6.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 6C41FDF2208770FC003649A0 /* EinsatzplanActemium6.mobileprovision */; };
+		6C5051F91EEEAF6D0022A420 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5051F71EEEAF6D0022A420 /* HockeySDK.framework */; };
+		6C5051FA1EEEAF6D0022A420 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C5051F81EEEAF6D0022A420 /* HockeySDKResources.bundle */; };
+		6C63B68D20861562000CF616 /* ActemiumHFEinsatzplan5.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 6C63B68C20861562000CF616 /* ActemiumHFEinsatzplan5.mobileprovision */; };
+		A2BD20971AC8A731007F7181 /* QSTodoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2BD20951AC8A731007F7181 /* QSTodoDataModel.xcdatamodeld */; };
+		A2D9CBC41943C2540017F096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9CBC31943C2540017F096 /* AppDelegate.swift */; };
+		A2D9CBCC1943C2540017F096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D9CBCA1943C2540017F096 /* Main.storyboard */; };
+		A2D9CBCE1943C2540017F096 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D9CBCD1943C2540017F096 /* Images.xcassets */; };
+		A2D9CBE41943C39D0017F096 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9CBE31943C39D0017F096 /* ToDoTableViewController.swift */; };
+		A31A89F71BF3FDFA00C7B656 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A89F61BF3FDFA00C7B656 /* Launch Screen.storyboard */; };
+		AC366C581D1AD9AF00E00F6F /* MS_TableConfig+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366C561D1AD9AF00E00F6F /* MS_TableConfig+CoreDataProperties.swift */; };
+		AC366C591D1AD9AF00E00F6F /* MS_TableConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366C571D1AD9AF00E00F6F /* MS_TableConfig.swift */; };
+		AC366C5B1D4602DE00E00F6F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366C5A1D4602DE00E00F6F /* TodoItem.swift */; };
+		ACE44C491CCFA9500081073F /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE44C481CCFA9500081073F /* WindowsAzureMobileServices.framework */; };
+		ACE4F1E01CDC5AF20068C446 /* ToDoTVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4F1DF1CDC5AF20068C446 /* ToDoTVCCell.swift */; };
+		ACF1972D1D09562B00C1EAC8 /* Registration+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1972B1D09562B00C1EAC8 /* Registration+CoreDataProperties.swift */; };
+		ACF1972E1D09562B00C1EAC8 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1972C1D09562B00C1EAC8 /* Registration.swift */; };
+		ACFEC7B91D61B5D0001814BD /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEC7B81D61B5D0001814BD /* ExtensionDate.swift */; };
+		ACFEC7D91D6ACEA2001814BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEC7D81D6ACEA2001814BD /* Test.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C41FDF2208770FC003649A0 /* EinsatzplanActemium6.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = EinsatzplanActemium6.mobileprovision; sourceTree = "<group>"; };
+		6C5051F71EEEAF6D0022A420 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		6C5051F81EEEAF6D0022A420 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		6C63B68C20861562000CF616 /* ActemiumHFEinsatzplan5.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = ActemiumHFEinsatzplan5.mobileprovision; path = ../../../Downloads/ActemiumHFEinsatzplan5.mobileprovision; sourceTree = "<group>"; };
+		A2D9CBBE1943C2540017F096 /* EinsatzplanActemiumHF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EinsatzplanActemiumHF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D9CBC21943C2540017F096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D9CBC31943C2540017F096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D9CBCB1943C2540017F096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D9CBCD1943C2540017F096 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2D9CBE31943C39D0017F096 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		A2D9CBE81943D1340017F096 /* todoios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "todoios-Bridging-Header.h"; sourceTree = "<group>"; };
+		A31A89F61BF3FDFA00C7B656 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AC366C551D1AD91E00E00F6F /* QSTodoDataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QSTodoDataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		AC366C561D1AD9AF00E00F6F /* MS_TableConfig+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MS_TableConfig+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AC366C571D1AD9AF00E00F6F /* MS_TableConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MS_TableConfig.swift; sourceTree = "<group>"; };
+		AC366C5A1D4602DE00E00F6F /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		AC6BE6831CE3E18E00A043E8 /* QSTodoDataModel 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "QSTodoDataModel 5.xcdatamodel"; sourceTree = "<group>"; };
+		ACE44C481CCFA9500081073F /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		ACE4F1DF1CDC5AF20068C446 /* ToDoTVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTVCCell.swift; sourceTree = "<group>"; };
+		ACF1972B1D09562B00C1EAC8 /* Registration+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Registration+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		ACF1972C1D09562B00C1EAC8 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		ACFEC7B81D61B5D0001814BD /* ExtensionDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		ACFEC7D81D6ACEA2001814BD /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D9CBBB1943C2540017F096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5051F91EEEAF6D0022A420 /* HockeySDK.framework in Frameworks */,
+				ACE44C491CCFA9500081073F /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C5051F61EEEAF6D0022A420 /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				6C5051F71EEEAF6D0022A420 /* HockeySDK.framework */,
+				6C5051F81EEEAF6D0022A420 /* HockeySDKResources.bundle */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = "<group>";
+		};
+		A2D9CBB51943C2540017F096 = {
+			isa = PBXGroup;
+			children = (
+				AC366C561D1AD9AF00E00F6F /* MS_TableConfig+CoreDataProperties.swift */,
+				6C41FDF2208770FC003649A0 /* EinsatzplanActemium6.mobileprovision */,
+				6C63B68C20861562000CF616 /* ActemiumHFEinsatzplan5.mobileprovision */,
+				AC366C571D1AD9AF00E00F6F /* MS_TableConfig.swift */,
+				A2D9CBC01943C2540017F096 /* todoios */,
+				A2D9CBBF1943C2540017F096 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D9CBBF1943C2540017F096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D9CBBE1943C2540017F096 /* EinsatzplanActemiumHF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D9CBC01943C2540017F096 /* todoios */ = {
+			isa = PBXGroup;
+			children = (
+				A2BD20951AC8A731007F7181 /* QSTodoDataModel.xcdatamodeld */,
+				ACF1972B1D09562B00C1EAC8 /* Registration+CoreDataProperties.swift */,
+				ACF1972C1D09562B00C1EAC8 /* Registration.swift */,
+				AC366C5A1D4602DE00E00F6F /* TodoItem.swift */,
+				A2D9CBC31943C2540017F096 /* AppDelegate.swift */,
+				A2D9CBCA1943C2540017F096 /* Main.storyboard */,
+				ACE4F1DF1CDC5AF20068C446 /* ToDoTVCCell.swift */,
+				A2D9CBCD1943C2540017F096 /* Images.xcassets */,
+				A2D9CBC11943C2540017F096 /* Supporting Files */,
+				A2D9CBE31943C39D0017F096 /* ToDoTableViewController.swift */,
+				A2D9CBE51943CB520017F096 /* frameworks */,
+				A2D9CBE81943D1340017F096 /* todoios-Bridging-Header.h */,
+				A31A89F61BF3FDFA00C7B656 /* Launch Screen.storyboard */,
+				ACFEC7B81D61B5D0001814BD /* ExtensionDate.swift */,
+				ACFEC7D81D6ACEA2001814BD /* Test.swift */,
+			);
+			path = todoios;
+			sourceTree = "<group>";
+		};
+		A2D9CBC11943C2540017F096 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D9CBC21943C2540017F096 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D9CBE51943CB520017F096 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5051F61EEEAF6D0022A420 /* HockeySDK.embeddedframework */,
+				ACE44C481CCFA9500081073F /* WindowsAzureMobileServices.framework */,
+			);
+			name = frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D9CBBD1943C2540017F096 /* todoios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D9CBDD1943C2540017F096 /* Build configuration list for PBXNativeTarget "todoios" */;
+			buildPhases = (
+				A2D9CBBA1943C2540017F096 /* Sources */,
+				A2D9CBBB1943C2540017F096 /* Frameworks */,
+				A2D9CBBC1943C2540017F096 /* Resources */,
+				6C5051F51EEEAF3E0022A420 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todoios;
+			productName = todoios;
+			productReference = A2D9CBBE1943C2540017F096 /* EinsatzplanActemiumHF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D9CBB61943C2540017F096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					A2D9CBBD1943C2540017F096 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 239B9668YT;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A2D9CBB91943C2540017F096 /* Build configuration list for PBXProject "todoios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D9CBB51943C2540017F096;
+			productRefGroup = A2D9CBBF1943C2540017F096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D9CBBD1943C2540017F096 /* todoios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D9CBBC1943C2540017F096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D9CBCC1943C2540017F096 /* Main.storyboard in Resources */,
+				6C5051FA1EEEAF6D0022A420 /* HockeySDKResources.bundle in Resources */,
+				A2D9CBCE1943C2540017F096 /* Images.xcassets in Resources */,
+				6C63B68D20861562000CF616 /* ActemiumHFEinsatzplan5.mobileprovision in Resources */,
+				A31A89F71BF3FDFA00C7B656 /* Launch Screen.storyboard in Resources */,
+				6C41FDF3208770FC003649A0 /* EinsatzplanActemium6.mobileprovision in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C5051F51EEEAF3E0022A420 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D9CBBA1943C2540017F096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF1972D1D09562B00C1EAC8 /* Registration+CoreDataProperties.swift in Sources */,
+				A2BD20971AC8A731007F7181 /* QSTodoDataModel.xcdatamodeld in Sources */,
+				AC366C5B1D4602DE00E00F6F /* TodoItem.swift in Sources */,
+				ACFEC7B91D61B5D0001814BD /* ExtensionDate.swift in Sources */,
+				AC366C581D1AD9AF00E00F6F /* MS_TableConfig+CoreDataProperties.swift in Sources */,
+				ACFEC7D91D6ACEA2001814BD /* Test.swift in Sources */,
+				A2D9CBE41943C39D0017F096 /* ToDoTableViewController.swift in Sources */,
+				AC366C591D1AD9AF00E00F6F /* MS_TableConfig.swift in Sources */,
+				ACE4F1E01CDC5AF20068C446 /* ToDoTVCCell.swift in Sources */,
+				ACF1972E1D09562B00C1EAC8 /* Registration.swift in Sources */,
+				A2D9CBC41943C2540017F096 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D9CBCA1943C2540017F096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D9CBCB1943C2540017F096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D9CBDB1943C2540017F096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D9CBDC1943C2540017F096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D9CBDE1943C2540017F096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Viktor Faerman (HX689WDJQR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 239B9668YT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = todoios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.actemium.hf.einsatzplan;
+				PRODUCT_NAME = EinsatzplanActemiumHF;
+				PROVISIONING_PROFILE = "2b35ab5d-93d7-4949-960c-a90ae5f0a575";
+				PROVISIONING_PROFILE_SPECIFIER = EinsatzplanActemium6;
+				SWIFT_OBJC_BRIDGING_HEADER = "todoios/todoios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A2D9CBDF1943C2540017F096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Viktor Faerman (HX689WDJQR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Viktor Faerman (HX689WDJQR)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 239B9668YT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = todoios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.actemium.hf.einsatzplan;
+				PRODUCT_NAME = EinsatzplanActemiumHF;
+				PROVISIONING_PROFILE = "dbfe3a2c-b79f-427d-bbbe-68e113960a84";
+				PROVISIONING_PROFILE_SPECIFIER = "ActemiumHFEinsatzplan-5";
+				SWIFT_OBJC_BRIDGING_HEADER = "todoios/todoios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D9CBB91943C2540017F096 /* Build configuration list for PBXProject "todoios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D9CBDB1943C2540017F096 /* Debug */,
+				A2D9CBDC1943C2540017F096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D9CBDD1943C2540017F096 /* Build configuration list for PBXNativeTarget "todoios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D9CBDE1943C2540017F096 /* Debug */,
+				A2D9CBDF1943C2540017F096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2BD20951AC8A731007F7181 /* QSTodoDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC366C551D1AD91E00E00F6F /* QSTodoDataModel 2.xcdatamodel */,
+				AC6BE6831CE3E18E00A043E8 /* QSTodoDataModel 5.xcdatamodel */,
+			);
+			currentVersion = AC6BE6831CE3E18E00A043E8 /* QSTodoDataModel 5.xcdatamodel */;
+			path = QSTodoDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2D9CBB61943C2540017F096 /* Project object */;
+}
